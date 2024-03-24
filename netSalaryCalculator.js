@@ -1,12 +1,16 @@
 let grossSalary = prompt("Please enter your gross salary.")
 // setting tax rate for each income range
-const taxRate1 = 0.1
-const taxRate2 = 0.25
-const taxRate3 = 0.30
-const taxRate4 = 0.325
-const taxRate5 = 0.35
+let payee;
+    if (grossSalary <= 24000) {
+      payee = 0.1 * grossSalary;
+    } else if (grossSalary > 24000 && grossSalary <= 32333) {
+      payee = (24000*0.1) + 0.25 * (grossSalary - 24000);}
+      else if(grossSalary >=32334 && grossSalary <= 500000){
+        payee = (24000*0.1) + 0.25 *(grossSalary - 32333)+ 0.30 *(grossSalary - 3233)
+      }
+
 // setting nhif deductions for each income range
-const nhifDeductions;
+let nhifDeductions;
 if (grossSalary <= 5999){nhifDeductions = 150}
 else if(grossSalary >= 6000 && grossSalary <= 7999){nhifDeductions = 300}
 else if (grossSalry >= 8000 && grossSalary <= 11999){nhifDeductions = 400}
