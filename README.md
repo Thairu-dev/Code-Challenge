@@ -7,4 +7,4 @@ it also carries a speed detector that ok's drivers who are within legal speed li
 and lastly carries a net salary calculator,and also calculates the payee (i.e. Tax), NHIFDeductions, NSSFDeductions and gross salary.
 
 ## Set up instructions
-Git clone to your local machine and enjoy!
+Just copy and paste the code to any javaScript complier and enjoy!
