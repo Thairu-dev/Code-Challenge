@@ -7,5 +7,12 @@ it also carries a speed detector that ok's drivers who are within legal speed li
 and lastly carries a net salary calculator,and also calculates the payee (i.e. Tax), NHIFDeductions, NSSFDeductions and gross salary.
 
 ## Set up instructions
-Git clone the repository to your local machine and run it on your browser or
-Just copy and paste the .js files code to any javaScript complier and enjoy!
+1. [Click here to fork the Repository](https://github.com/Thairu-dev/Code-Challenge).
+2. Clone the forked repository to your local repository.
+3. Make sure you have a browser installed on your machine i recommend chrome browser, but you can also have (firefox,safari,microsft edge or opera).
+4. Open index.html file in the folder you just cloned to your machine with the browser you settled on in the previous step.
+5. After opening the file on your browser right click anywhere on the page and select the inspect option then lastly select console and use the following to call the functions.
+### For grades generator use
++ console.log(gradingMarks())
+### For speed dector use 
++ console.log(calculateDemerits()) 

@@ -10,18 +10,23 @@ function gradingMarks(marks){
 //i declare an empty variable "grade" which i will use in combination with condtional if statements to set a grade  for the each marks range as per instructions
 
 // declaring conditional statements that returns a grade for each range of marks.
+// this if condition grades the marks as "A" if the value is greater than 79
    if(marks > 79){
         grade = "A"
     } 
+    // this if condition grades the marks as "B" if the value of marks is greater or equal to 60 and also less than or equal to 79
     else if (marks >= 60 && marks <= 79) {
         grade = "B"
     }
+    // this if condition grades the marks as "C" if the value of marks is greater or equal to 49 and also less than or equal to 59
     else if(marks >= 49 && marks <= 59){
         grade = "C"
-    }   
+    }
+// / this if condition grades the marks as "D" if the value of marks is greater or equal to 40 and also less than or equal to 49
     else if(marks >= 40 && marks <= 49){
         grade = "D"
     }
+    // this condition grades any marks that's less than 40 as an "E"
     else{
     grade = "E"}
     
